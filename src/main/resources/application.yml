@@ -1,0 +1,27 @@
+spring:
+  # 邮件配置
+  mail:
+    host: smtp.qq.com
+    username: xxxxxxxxxxxxxxx
+    password: emgpznaxxxxxx
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true # 开启加密验证
+
+##网易163邮箱
+#spring:
+#  mail:
+#    host: smtp.163.com
+#    username: 邮箱账号
+#    password: 邮箱密码
+#    properties:
+#      mail:
+#        smtp:
+#          # 需要验证登录名和密码
+#          auth: true
+#        starttls:
+#          # 需要TLS认证 保证发送邮件安全验证
+#          enable: true
+#          required: true
